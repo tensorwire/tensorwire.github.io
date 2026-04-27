@@ -4,7 +4,8 @@ export function Layout() {
   return (
     <div className="max-w-2xl mx-auto px-6 py-12">
       <header className="mb-16">
-        <Link to="/" className="no-underline">
+        <Link to="/" className="no-underline flex items-center gap-3">
+          <img src="/logo.png" alt="tensorwire" className="w-10 h-10" />
           <h1 className="text-[var(--color-accent)] text-xl font-bold tracking-tight">
             tensorwire
           </h1>
