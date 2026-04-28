@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './index.css'
 import { Layout } from './components/Layout'
 import { Home } from './pages/Home'
+import { Blog } from './pages/Blog'
 import { Post } from './pages/Post'
 
 createRoot(document.getElementById('root')!).render(
@@ -12,6 +13,7 @@ createRoot(document.getElementById('root')!).render(
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/posts/:slug" element={<Post />} />
         </Route>
       </Routes>
