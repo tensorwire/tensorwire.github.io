@@ -8,6 +8,12 @@ export interface PostMeta {
 
 export const posts: PostMeta[] = [
   {
+    slug: 'v152-fused-inference-fp16-tokenizer',
+    title: 'v1.5.2: Fused Inference, FP16, and a Tokenizer That OOM\'d a 64GB Machine',
+    date: '2026-05-01',
+    summary: 'Inference +28%. Training +54% at dim≥1024. The tokenizer was O(n²) and nobody noticed until we fed it 48MB.',
+  },
+  {
     slug: 'benchmarks-i-owe-pytorch-a-fair-fight',
     title: 'Benchmarks: I Owe PyTorch a Fair Fight',
     date: '2026-04-27',
