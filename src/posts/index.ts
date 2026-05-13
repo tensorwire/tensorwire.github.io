@@ -8,6 +8,12 @@ export interface PostMeta {
 
 export const posts: PostMeta[] = [
   {
+    slug: 'sq4-is-live-llama-cpp-pr-and-whitepaper',
+    title: 'SQ4 Is Live: Whitepaper + llama.cpp PR',
+    date: '2026-05-13',
+    summary: 'We published the SQ4 whitepaper and opened a PR to bring percentile-calibrated 4-bit quantization to llama.cpp.',
+  },
+  {
     slug: 'v152-fused-inference-fp16-tokenizer',
     title: 'v1.5.2: Fused Inference, FP16, and a Tokenizer That OOM\'d a 64GB Machine',
     date: '2026-05-01',
